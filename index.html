@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#fff8f1">
+    <meta name="description" content="Pasteles, cupcakes y postres preparados con amor en Dulce Encanto.">
+    <title>Dulce Encanto | Pastelería</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="#inicio" aria-label="Dulce Encanto, inicio">
+            <span class="brand-mark" aria-hidden="true">✿</span>
+            <span>Dulce <b>Encanto</b></span>
+        </a>
+        <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="site-nav">
+            <span></span><span></span><span></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Navegación principal">
+            <a href="#inicio">Inicio</a>
+            <a href="#favoritos">Nuestros favoritos</a>
+            <a href="#galeria">Galería</a>
+            <a href="#pedidos">Cómo pedir</a>
+            <a href="#nosotros">Nuestra historia</a>
+            <a class="nav-cta" href="#contacto">Contacto <span aria-hidden="true">↗</span></a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <div class="hero-copy">
+                <p class="eyebrow"><span></span> UN PEDACITO DE FELICIDAD</p>
+                <h1>Momentos dulces,<br><em>hechos para compartir.</em></h1>
+                <p class="hero-intro">Pasteles, cupcakes y postres preparados con amor para celebrar las cosas grandes y pequeñas de la vida.</p>
+                <a class="button button-dark" href="#favoritos">Descubre nuestros favoritos <span aria-hidden="true">→</span></a>
+                <div class="hero-note"><span class="note-stars" aria-hidden="true">★★★★★</span><span>Horneado con cariño, siempre</span></div>
+            </div>
+            <div class="hero-art">
+                <img class="hero-photo" src="assets/logo.jpg" alt="Pastelera disfrutando un cupcake">
+                <span class="art-spark spark-one" aria-hidden="true">✳</span>
+                <span class="art-spark spark-two" aria-hidden="true">✦</span>
+                <div class="art-caption">Un detalle<br>que se saborea <span>♡</span></div>
+            </div>
+            <a class="scroll-cue" href="#favoritos" aria-label="Desplazarse a nuestros favoritos">↓</a>
+        </section>
+
+        <section class="favorites section-wrap" id="favoritos">
+            <div class="section-heading">
+                <div><p class="eyebrow">PARA ANTOJARSE</p><h2>Pequeños grandes <em>favoritos</em></h2></div>
+                <p>Cada celebración merece algo rico.<br>¿Cuál se te antoja hoy?</p>
+            </div>
+            <div class="product-grid">
+                <article class="product-card card-pink">
+                    <div class="product-visual"><img src="assets/pastel.jpg" alt="Rebanada de pastel con capas de crema"></div>
+                    <div class="product-info"><div><h3>Pasteles</h3><p>El centro de cada celebración.</p></div><span class="card-arrow" aria-hidden="true">↗</span></div>
+                </article>
+                <article class="product-card card-yellow">
+                    <div class="product-visual"><img src="assets/cupcake.jpg" alt="Cupcakes con crema y caramelo"></div>
+                    <div class="product-info"><div><h3>Cupcakes</h3><p>Un gustito para cualquier día.</p></div><span class="card-arrow" aria-hidden="true">↗</span></div>
+                </article>
+                <article class="product-card card-green">
+                    <div class="product-visual"><img src="assets/galleta.jpg" alt="Alfajores rellenos apilados en un plato"></div>
+                    <div class="product-info"><div><h3>Alfajores</h3><p>Un bocado dulce para compartir.</p></div><span class="card-arrow" aria-hidden="true">↗</span></div>
+                </article>
+            </div>
+        </section>
+
+        <section class="gallery section-wrap" id="galeria">
+            <div class="section-heading">
+                <div><p class="eyebrow">HECHO PARA DISFRUTAR</p><h2>Un vistazo a nuestro <em>mundo dulce</em></h2></div>
+                <p>Ideas deliciosas para acompañar<br>tus momentos especiales.</p>
+            </div>
+            <div class="gallery-grid">
+                <figure class="gallery-item gallery-tall">
+                    <img src="assets/cupcake.jpg" alt="Cupcakes con crema y caramelo listos para compartir">
+                    <figcaption><span>Un antojo especial</span><b>Cupcakes</b></figcaption>
+                </figure>
+                <figure class="gallery-item">
+                    <img src="assets/pastel.jpg" alt="Rebanada de pastel con capas de crema">
+                    <figcaption><span>Para celebrar</span><b>Pastel de la casa</b></figcaption>
+                </figure>
+                <figure class="gallery-item">
+                    <img src="assets/galleta.jpg" alt="Alfajores rellenos apilados en un plato">
+                    <figcaption><span>Un dulce detalle</span><b>Alfajores</b></figcaption>
+                </figure>
+                <figure class="gallery-item gallery-wide">
+                    <img src="assets/persona.jpg" alt="Persona disfrutando un postre">
+                    <figcaption><span>Momentos felices</span><b>Algo rico para compartir</b></figcaption>
+                </figure>
+            </div>
+            <p class="demo-caption">Galería de muestra para proyecto universitario.</p>
+        </section>
+
+        <section class="ordering" id="pedidos">
+            <div class="ordering-inner">
+                <div class="ordering-heading">
+                    <p class="eyebrow">ASÍ DE FÁCIL</p>
+                    <h2>¿Cómo sería <em>tu pedido?</em></h2>
+                    <p>Unos sencillos pasos para imaginar una celebración dulce.</p>
+                </div>
+                <div class="order-steps">
+                    <article class="order-step"><span class="step-number">01</span><div><h3>Elige tu favorito</h3><p>Explora pasteles, cupcakes y alfajores.</p></div></article>
+                    <article class="order-step"><span class="step-number">02</span><div><h3>Cuéntanos tu idea</h3><p>Imagina el sabor y los detalles para tu ocasión.</p></div></article>
+                    <article class="order-step"><span class="step-number">03</span><div><h3>Comparte el momento</h3><p>Disfruta algo rico junto a tus personas favoritas.</p></div></article>
+                </div>
+                <p class="demo-caption">Pasos ilustrativos; esta página no recibe pedidos reales.</p>
+            </div>
+        </section>
+
+        <section class="story" id="nosotros">
+            <div class="story-photo"><img src="assets/persona.jpg" alt="Persona disfrutando un postre recién hecho"></div>
+            <div class="story-copy"><p class="eyebrow">UN POQUITO DE NOSOTROS</p><h2>Lo más rico siempre<br>se comparte.</h2><p>En Dulce Encanto creemos que un postre puede convertir cualquier día en una ocasión especial. Preparamos cada detalle con dedicación para acompañar tus momentos más felices.</p><a class="text-link" href="#contacto">Celebremos algo juntos <span aria-hidden="true">→</span></a></div>
+            <div class="story-doodle" aria-hidden="true">♡</div>
+        </section>
+
+        <section class="contact section-wrap" id="contacto">
+            <div class="contact-copy">
+                <p class="eyebrow">¿SE TE ANTOJÓ ALGO?</p>
+                <h2>Cuéntanos tu<br><em>idea dulce.</em></h2>
+                <p>¿Tienes una celebración en mente? Este formulario es parte de la demostración universitaria y no envía información.</p>
+                <span class="contact-spark" aria-hidden="true">✦</span>
+            </div>
+            <form class="demo-form" id="demo-form">
+                <label for="nombre">Tu nombre</label>
+                <input id="nombre" name="nombre" type="text" placeholder="¿Cómo te llamas?" required>
+                <label for="correo">Correo electrónico</label>
+                <input id="correo" name="correo" type="email" placeholder="tunombre@ejemplo.com" required>
+                <label for="mensaje">¿Qué te gustaría celebrar?</label>
+                <textarea id="mensaje" name="mensaje" rows="3" placeholder="Cuéntanos tu idea..." required></textarea>
+                <button class="button button-light" type="submit">Enviar mensaje <span aria-hidden="true">→</span></button>
+                <p class="form-note" id="form-note" role="status">Formulario de demostración: no envía ni guarda tus datos.</p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <a class="brand" href="#inicio"><span class="brand-mark" aria-hidden="true">✿</span><span>Dulce <b>Encanto</b></span></a>
+        <p>Un poquito de dulzura para tu día.</p>
+        <span>© 2026 Dulce Encanto</span>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
